@@ -4,15 +4,14 @@ import java.util.List;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ByClassName;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-import com.ExpertTestBDD.acceuil.pages.AccueilPage;
+
 import com.ExpertTestBDD.eboutique.pages.EboutiquePage;
 import com.ExpertTestBDD.utils.CommonMethods;
 import com.ExpertTestBDD.utils.Setup;
+
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 

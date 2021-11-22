@@ -1,11 +1,13 @@
 @Eboutqiue
 Feature:Eboutique-ExpertTest
   Eboutique Page Access 
-
-  @DisplayTest
-  Scenario: Check The grid display
+ Background: 
     Given I navigates to ExpertTest
     Then I check the home page
+  @DisplayTest
+  Scenario: Check The grid display
+    #Given I navigates to ExpertTest
+    #Then I check the home page
     When I click on eboutique button
     Then I check that eboutique Page is displayed "https://www.expertest.tn/boutique/"
     And I click on list view button

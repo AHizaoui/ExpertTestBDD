@@ -4,7 +4,10 @@ import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Properties;
+import java.util.Set;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -59,12 +62,12 @@ public class CommonMethods {
 		return isElementDisplayed;
 	}
 
-	public void switchHandles() {
+	public void switchHandles(int i) {
 		ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(newTb.get(0));
+		driver.switchTo().window(newTb.get(i));
 		driver.navigate().forward();
 	}
-
+	
 	public void explicitWait(int i , WebElement element ) {
 		WebDriverWait wait = new WebDriverWait(driver, i);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
@@ -87,5 +90,14 @@ public class CommonMethods {
 		
 		 ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", element);
 		
+	}
+	public void switchToParent() {
+		Set<String> ids = driver.getWindowHandles();
+		Iterator <String> it = ids.iterator();
+		String ParentID = it.next();
+		String ChildID = it.next();
+		driver.switchTo().window(ParentID);
+		
+
 	}
 }

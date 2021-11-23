@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2021-11-22 16:49:43,246 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
 2021-11-22 16:49:46,305 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I access to A propos page $
 2021-11-22 16:49:47,919 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I access to Startup Act site $
@@ -11,3 +12,93 @@
 2021-11-22 16:50:18,227 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
 2021-11-22 16:50:25,923 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
 2021-11-22 16:50:29,079 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+=======
+2021-11-22 17:00:03,513 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 17:00:09,251 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2021-11-22 17:00:09,267 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I click on the button Commencez$
+2021-11-22 17:00:16,930 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check  Page Mon Compte is opening$
+2021-11-22 17:00:17,303 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I click on the button J achète$
+2021-11-22 17:00:29,270 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check  Page Boutique is opening$
+2021-11-22 17:00:29,474 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I click on the button passez le quizz$
+2021-11-22 17:00:50,898 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check  Page Boutique is opening$
+2021-11-22 17:00:57,336 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 17:01:00,670 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2021-11-22 17:01:00,687 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I click on the image Voucher de certification ISTQB Foundation$
+2021-11-22 17:01:01,936 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check Page product Voucher de certification ISTQB Foundation is opening \"([^\"]*)\"$
+2021-11-22 17:01:05,727 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 17:01:09,126 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2021-11-22 17:01:09,136 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I click on the image Voucher  Sélénium$
+2021-11-22 17:01:10,383 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check Page product Voucher  Sélénium is opening \"([^\"]*)\"$
+2021-11-22 17:01:13,478 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 17:01:16,833 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2021-11-22 17:01:16,845 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I click on the image Voucher ISTQB Test Manager Niveau avancé$
+2021-11-22 17:01:17,742 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check Page product Voucher ISTQB Test Manager Niveau avancé \"([^\"]*)\"$
+2021-11-22 17:01:17,758 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check Page product Voucher ISTQB Test Manager Niveau avancé contains \"([^\"]*)\"$
+2021-11-22 17:01:20,798 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 17:01:24,625 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2021-11-22 17:01:24,631 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I click on the image Voucher IQBBA Business Analyste$
+2021-11-22 17:01:25,643 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check Page product Voucher IQBBA Business Analyste \"([^\"]*)\"$
+2021-11-22 17:01:25,659 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check Page product Voucher IQBBA Business Analyste contains \"([^\"]*)\"$
+2021-11-22 17:01:29,107 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 17:01:32,394 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2021-11-22 17:01:32,427 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I click on the image Voucher ISTQB® – TESTEUR AGILE$
+2021-11-22 17:01:33,492 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check Page product Voucher ISTQB® – TESTEUR AGILE \"([^\"]*)\"$
+2021-11-22 17:01:33,507 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I check Page product Voucher ISTQB® – TESTEUR AGILE contains \"([^\"]*)\"$
+2021-11-22 17:01:36,579 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 17:01:40,943 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2021-11-22 17:01:40,956 - com.ExpertTestBDD.utils.AbstractPage - INFO - Quizz Page opening
+2021-11-22 17:01:42,200 - com.ExpertTestBDD.utils.AbstractPage - INFO - Quizz Page is correctly opned
+2021-11-22 17:01:42,202 - com.ExpertTestBDD.utils.AbstractPage - INFO - Verification of Quizz page Title 
+2021-11-22 17:01:42,244 - com.ExpertTestBDD.utils.AbstractPage - INFO - The title is correct
+2021-11-22 17:01:45,117 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 17:01:48,559 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2021-11-22 17:01:48,577 - com.ExpertTestBDD.utils.AbstractPage - INFO - Quizz Page opening
+2021-11-22 17:01:50,178 - com.ExpertTestBDD.utils.AbstractPage - INFO - Quizz Page is correctly opned
+2021-11-22 17:01:50,181 - com.ExpertTestBDD.utils.AbstractPage - INFO - Access to Lean Six Segma Exam Page 
+2021-11-22 17:01:51,239 - com.ExpertTestBDD.utils.AbstractPage - INFO - Lean Six Segma Exam Page is opened 
+2021-11-22 17:01:51,240 - com.ExpertTestBDD.utils.AbstractPage - INFO - Verification of the title
+2021-11-22 17:01:51,269 - com.ExpertTestBDD.utils.AbstractPage - INFO - The title is correct
+2021-11-22 17:01:51,458 - com.ExpertTestBDD.utils.AbstractPage - INFO - Scrolling down the page to find Tabulation
+2021-11-22 17:01:51,460 - com.ExpertTestBDD.utils.AbstractPage - INFO - click on yellow Belt Tab 
+2021-11-22 17:01:51,491 - com.ExpertTestBDD.utils.AbstractPage - INFO - Yellow tabulation text  is checked  
+2021-11-22 17:01:51,492 - com.ExpertTestBDD.utils.AbstractPage - INFO - click on Orange Belt Tab 
+2021-11-22 17:01:51,539 - com.ExpertTestBDD.utils.AbstractPage - INFO - Orange Belt Tab is Selected 
+2021-11-22 17:01:51,569 - com.ExpertTestBDD.utils.AbstractPage - INFO - Orange Tabulation Text is Correctly Dispalyed
+2021-11-22 17:01:51,570 - com.ExpertTestBDD.utils.AbstractPage - INFO - click on Green Belt Tab 
+2021-11-22 17:01:51,615 - com.ExpertTestBDD.utils.AbstractPage - INFO - Green Belt Tab is Selected 
+2021-11-22 17:01:51,649 - com.ExpertTestBDD.utils.AbstractPage - INFO - Green Tabulation Text is Correctly Dispalyed
+2021-11-22 17:01:54,598 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 17:01:59,165 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2021-11-22 17:01:59,169 - com.ExpertTestBDD.utils.AbstractPage - INFO - Quizz Page opening
+2021-11-22 17:02:00,917 - com.ExpertTestBDD.utils.AbstractPage - INFO - Quizz Page is correctly opned
+2021-11-22 17:02:00,918 - com.ExpertTestBDD.utils.AbstractPage - INFO - Navigate to Developpment Exam page
+2021-11-22 17:02:02,443 - com.ExpertTestBDD.utils.AbstractPage - INFO - Devolppement Exam page is correctly opened 
+2021-11-22 17:02:02,444 - com.ExpertTestBDD.utils.AbstractPage - INFO - Verify the Title of Developpement Exam page 
+2021-11-22 17:02:02,462 - com.ExpertTestBDD.utils.AbstractPage - INFO - The title of Page is correct 
+2021-11-22 17:02:02,463 - com.ExpertTestBDD.utils.AbstractPage - INFO - Scrooling The dev Page Down 
+2021-11-22 17:02:02,486 - com.ExpertTestBDD.utils.AbstractPage - INFO - Page is scrolled down
+2021-11-22 17:02:02,549 - com.ExpertTestBDD.utils.AbstractPage - INFO - Android button is displayed
+2021-11-22 17:02:05,702 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 17:02:08,952 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2021-11-22 17:02:08,971 - com.ExpertTestBDD.utils.AbstractPage - INFO - Quizz Page opening
+2021-11-22 17:02:10,734 - com.ExpertTestBDD.utils.AbstractPage - INFO - Quizz Page is correctly opned
+2021-11-22 17:02:10,736 - com.ExpertTestBDD.utils.AbstractPage - INFO - Navigate to ISTQB Quizz Exam page
+2021-11-22 17:02:12,455 - com.ExpertTestBDD.utils.AbstractPage - INFO - ISTQB Quizz Exam page is correctly opened 
+2021-11-22 17:02:12,455 - com.ExpertTestBDD.utils.AbstractPage - INFO - Verify the Title of ISTQB QUIZZ Exam page 
+2021-11-22 17:02:12,469 - com.ExpertTestBDD.utils.AbstractPage - INFO - The title of Page is correct 
+2021-11-22 17:02:12,470 - com.ExpertTestBDD.utils.AbstractPage - INFO - Scrooling The dev Page Down 
+2021-11-22 17:02:12,485 - com.ExpertTestBDD.utils.AbstractPage - INFO - Page is scrolled down
+2021-11-22 17:02:15,576 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 17:02:18,950 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2021-11-22 17:02:18,967 - com.ExpertTestBDD.utils.AbstractPage - INFO - Quizz Page opening
+2021-11-22 17:02:20,191 - com.ExpertTestBDD.utils.AbstractPage - INFO - Quizz Page is correctly opned
+2021-11-22 17:02:20,193 - com.ExpertTestBDD.utils.AbstractPage - INFO - Navigate to AGILE SCRUM Quizz Exam page
+2021-11-22 17:02:21,221 - com.ExpertTestBDD.utils.AbstractPage - INFO - AGILE SCRUM Quizz Exam page is correctly opened 
+2021-11-22 17:02:21,222 - com.ExpertTestBDD.utils.AbstractPage - INFO - Verify the Title of AGILE SCRUM QUIZZ Exam page 
+2021-11-22 17:02:21,237 - com.ExpertTestBDD.utils.AbstractPage - INFO - The title of Page is correct 
+2021-11-22 17:02:21,238 - com.ExpertTestBDD.utils.AbstractPage - INFO - Scrooling The dev Page Down 
+2021-11-22 17:02:21,245 - com.ExpertTestBDD.utils.AbstractPage - INFO - Page is scrolled down
+2021-11-22 17:02:21,246 - com.ExpertTestBDD.utils.AbstractPage - INFO - click on Agile Tab button 
+2021-11-22 17:02:21,314 - com.ExpertTestBDD.utils.AbstractPage - INFO - Agile Tab is Selected 
+2021-11-22 17:02:24,227 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+>>>>>>> master

@@ -1,4 +1,4 @@
-package com.ExpertTestBDD.quizz.stepDefinitions;
+package com.ExpertTestBDD.quizz.page;
 
 public class UserAccountDTO {
 	private String username;

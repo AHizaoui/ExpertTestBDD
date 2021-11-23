@@ -17,7 +17,11 @@ import cucumber.api.junit.Cucumber;
 		plugin = { "pretty", "html:target/cucumber-html-report", "json:json/cucumber.json",
 				
 				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/Expertest.html" }, tags = {
+<<<<<<< HEAD
+						(" @accueil , @quizzpage , @Eboutqiue , @connexion , @registration , @apropos ") },
+=======
 						(" @accueil , @quizzpage , @Eboutqiue,@Nos-Promotions,") },
+>>>>>>> master
 
 		snippets = SnippetType.CAMELCASE, monochrome = true)
 

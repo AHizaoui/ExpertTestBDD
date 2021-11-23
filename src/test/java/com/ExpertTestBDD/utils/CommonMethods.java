@@ -5,6 +5,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -87,5 +89,19 @@ public class CommonMethods {
 		
 		 ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", element);
 		
+	}
+	public void switchtocaptchaframe (String path) {
+		WebElement frm =driver.findElement(By.xpath(path));
+		driver.switchTo().frame(frm) ;	
+	}
+ public void ReturnTodDefaultFrame () {
+		driver.switchTo().defaultContent();
+		   driver.manage().deleteAllCookies();
+	 
+ }
+ public void switchHandles(int i) {
+		ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles());
+		driver.switchTo().window(newTb.get(i));
+		driver.navigate().forward();
 	}
 }

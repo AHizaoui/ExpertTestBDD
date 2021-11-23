@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+2021-11-22 16:49:43,246 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 16:49:46,305 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I access to A propos page $
+2021-11-22 16:49:47,919 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I access to Startup Act site $
+2021-11-22 16:49:49,967 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I Check startup Act site$
+2021-11-22 16:49:50,034 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I access to GASQ  site $
+2021-11-22 16:49:53,456 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I Check GASQ site$
+2021-11-22 16:49:53,522 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I access to Pearsonvue  site$
+2021-11-22 16:50:04,048 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 16:50:07,136 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2021-11-22 16:50:14,822 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 16:50:18,227 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+2021-11-22 16:50:25,923 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+2021-11-22 16:50:29,079 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
+=======
 2021-11-22 17:00:03,513 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
 2021-11-22 17:00:09,251 - com.ExpertTestBDD.utils.AbstractPage - INFO - I check the home page$
 2021-11-22 17:00:09,267 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I click on the button Commencez$
@@ -86,3 +101,4 @@
 2021-11-22 17:02:21,246 - com.ExpertTestBDD.utils.AbstractPage - INFO - click on Agile Tab button 
 2021-11-22 17:02:21,314 - com.ExpertTestBDD.utils.AbstractPage - INFO - Agile Tab is Selected 
 2021-11-22 17:02:24,227 - com.ExpertTestBDD.utils.AbstractPage - INFO - ^I navigates to ExpertTest$
+>>>>>>> master

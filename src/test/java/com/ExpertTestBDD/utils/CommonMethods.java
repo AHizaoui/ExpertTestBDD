@@ -6,8 +6,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Properties;
+<<<<<<< HEAD
 import java.util.Set;
 
+=======
+
+import org.openqa.selenium.By;
+>>>>>>> master
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -91,6 +96,7 @@ public class CommonMethods {
 		 ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", element);
 		
 	}
+<<<<<<< HEAD
 	public void switchToParent() {
 		Set<String> ids = driver.getWindowHandles();
 		Iterator <String> it = ids.iterator();
@@ -99,5 +105,20 @@ public class CommonMethods {
 		driver.switchTo().window(ParentID);
 		
 
+=======
+	public void switchtocaptchaframe (String path) {
+		WebElement frm =driver.findElement(By.xpath(path));
+		driver.switchTo().frame(frm) ;	
+	}
+ public void ReturnTodDefaultFrame () {
+		driver.switchTo().defaultContent();
+		   driver.manage().deleteAllCookies();
+	 
+ }
+ public void switchHandles(int i) {
+		ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles());
+		driver.switchTo().window(newTb.get(i));
+		driver.navigate().forward();
+>>>>>>> master
 	}
 }

@@ -10,8 +10,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 
 import com.ExpertTestBDD.quizz.page.QuizzPage;
-import com.ExpertTestBDD.quizz.stepDefinitions.UserAccountDTO;
-import com.ExpertTestBDD.quizz.stepDefinitions.readFiles;
+import com.ExpertTestBDD.quizz.page.UserAccountDTO;
+import com.ExpertTestBDD.quizz.page.readFiles;
 import com.ExpertTestBDD.utils.CommonMethods;
 import com.ExpertTestBDD.utils.Setup;
 import cucumber.api.java.en.Then;
@@ -145,7 +145,7 @@ public void i_verify_the_display_of_all_Devoloppement_page_Quizz_Tab() throws Th
 
 @Then("^I click on all element to verify them$")
 public void i_click_on_all_element_to_verify_them() throws NullPointerException, IOException {
-	List<UserAccountDTO> list=readFiles.readThemeData("C:\\Users\\Yassine\\git\\experttestbdd\\DATA.xlsx",1);
+	List<UserAccountDTO> list=readFiles.readThemeData("ExpertTestBDD/DATA.xlsx",1);
 	 int i = list.size() ;
 	System.out.println(i);
 	
@@ -189,7 +189,7 @@ public void i_scroll_down_until_the_Tab_of_Quizz() throws Throwable {
 @Then("^I click on each element of the  Tab$")
 public void i_click_on_each_element_of_the_Tab() throws Throwable {
 
-	List<UserAccountDTO> list=readFiles.readThemeData("C:\\Users\\Yassine\\git\\experttestbdd\\DATA.xlsx",0);
+	List<UserAccountDTO> list=readFiles.readThemeData("ExpertTestBDD/DATA.xlsx",0);
 	 int i = list.size() ;
 	System.out.println(i);
 	

@@ -1,4 +1,4 @@
-package com.ExpertTestBDD.quizz.stepDefinitions;
+package com.ExpertTestBDD.quizz.page;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;

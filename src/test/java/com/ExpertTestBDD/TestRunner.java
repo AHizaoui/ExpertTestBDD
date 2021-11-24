@@ -10,30 +10,19 @@ import com.cucumber.listener.Reporter;
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
 import cucumber.api.junit.Cucumber;
-
 @RunWith(Cucumber.class)
 @CucumberOptions(features = { "src/specs/features" },
 		// glue = {""},
 		plugin = { "pretty", "html:target/cucumber-html-report", "json:json/cucumber.json",
 				
-				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/Expertest.html" }, tags = {
-<<<<<<< HEAD
-						(" @accueil, @Header, @quizzpage , @Eboutqiue,@Telechargement, @Actualite ") },
-=======
-<<<<<<< HEAD
-						(" @accueil , @quizzpage , @Eboutqiue , @connexion , @registration , @apropos ") },
-=======
-						(" @accueil , @quizzpage , @Eboutqiue,@Nos-Promotions,") },
->>>>>>> master
->>>>>>> master
-
+				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/Expertest.html" },
+		tags = {(" @accueil,@Nos-Promotions, @Header, @quizzpage , @Eboutqiue,@Telechargement, @Actualite, @connexion, @registration , @apropos, @Nos-Promotions,") },
+					
 		snippets = SnippetType.CAMELCASE, monochrome = true)
-
 public class TestRunner {
-
 	@AfterClass
 	public static void writeExtentReport() {
 		Reporter.loadXMLConfig(new File("src/test/ressources/configs/extent-config.xml"));
 	}
-
 }
+
